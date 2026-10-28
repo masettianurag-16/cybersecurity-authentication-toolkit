@@ -349,74 +349,18 @@ python test_auth.py
 
 
 ### 2. User Registration & Password Strength Checker
-*Real-time password evaluation showing dynamic strength calculation and requirement checkmarks.*
+<img width="1876" height="951" alt="image" src="https://github.com/user-attachments/assets/382fc1a8-f9bf-46bc-865e-9b79a616478e" />
+<img width="1828" height="942" alt="image" src="https://github.com/user-attachments/assets/4a8c953b-6f34-4815-9260-9a771382fda2" />
 
-```
-+-----------------------------------------------------------------------+
-|                           Create Account                              |
-|                                                                       |
-|  Username:         [ cyber_analyst                          ]         |
-|  Email Address:    [ user@example.com                       ]         |
-|  Password:         [ ••••••••••••                        👁️ ]         |
-|                                                                       |
-|  Password Strength: [ STRONG                                ]         |
-|  [==========================================================] (Green) |
-|                                                                       |
-|  Security Requirements:                                               |
-|    ✓ At least 8 characters                                            |
-|    ✓ Uppercase letter (A-Z)                                           |
-|    ✓ Lowercase letter (a-z)                                           |
-|    ✓ Number (0-9)                                                     |
-|    ✓ Special character (!@#$%^&*...)                                  |
-|                                                                       |
-|  Confirm Password: [ ••••••••••••                           ]         |
-|  ✓ Passwords match                                                    |
-|                                                                       |
-|  [                    Register Securely                     ]         |
-+-----------------------------------------------------------------------+
-```
-*(Placeholder: `screenshots/registration_page.png`)*
 
 ### 3. User Login Page
-*Secure login form with generic anti-enumeration error feedback.*
+<img width="1856" height="950" alt="image" src="https://github.com/user-attachments/assets/bd3a3103-127b-4a30-ae02-af7ed7458279" />
 
-```
-+-----------------------------------------------------------------------+
-|                               Sign In                                 |
-|                                                                       |
-|  Username or Email: [ cyber_analyst                         ]         |
-|  Password:          [ ••••••••••••                       👁️ ]         |
-|                                                                       |
-|  [                     Authenticate →                       ]         |
-|                                                                       |
-|  💡 Cybersecurity note: Login failures do not reveal if the           |
-|     username exists, preventing account enumeration attacks.          |
-+-----------------------------------------------------------------------+
-```
-*(Placeholder: `screenshots/login_page.png`)*
 
 ### 4. Authenticated User Dashboard
-*Protected dashboard displaying session state, timestamps, and active security controls.*
+<img width="1882" height="958" alt="image" src="https://github.com/user-attachments/assets/00d51db8-50c8-4a7c-b3ac-50be2ef6d62c" />
+<img width="1893" height="912" alt="image" src="https://github.com/user-attachments/assets/2498550a-05d0-4314-931e-d17182738757" />
 
-```
-+-----------------------------------------------------------------------+
-|  [🛡️] Welcome, cyber_analyst                                [Logout]   |
-|       You have successfully authenticated into your secure session.   |
-|                                                                       |
-|  +---------------------+  +---------------------+                     |
-|  | AUTH STATUS         |  | ACTIVE USER ACCOUNT |                     |
-|  | ● Authenticated     |  | cyber_analyst       |                     |
-|  +---------------------+  +---------------------+                     |
-|  | LOGIN TIMESTAMP     |  | PASSWORD DEFENSE    |                     |
-|  | 2026-10-28 20:00:00 |  | 🔒 Salted Hash Only |                     |
-|  +---------------------+  +---------------------+                     |
-|                                                                       |
-|  Active Security Controls in this Session:                            |
-|  [1. Hashing]            [2. SQL Injection Defense]                   |
-|  [3. Session Security]   [4. Route Protection Guards]                 |
-+-----------------------------------------------------------------------+
-```
-*(Placeholder: `screenshots/dashboard_page.png`)*
 
 ---
 
