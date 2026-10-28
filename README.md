@@ -341,25 +341,12 @@ python test_auth.py
 > *Screenshots can be captured while running the application locally at `http://127.0.0.1:5000` and placed inside a `screenshots/` directory.*
 
 ### 1. Home / Landing Page
-*Overview of the Cybersecurity Authentication Toolkit and core security features.*
+<img width="1892" height="963" alt="Screenshot 2026-10-28 202738" src="https://github.com/user-attachments/assets/2cdfb741-d909-4444-8a98-ea35ea223399" />
+<img width="1891" height="963" alt="Screenshot 2026-10-28 202815" src="https://github.com/user-attachments/assets/db1acfa1-2291-4f46-bfb0-886db32c85ad" />
+<img width="1872" height="816" alt="Screenshot 2026-10-28 202843" src="https://github.com/user-attachments/assets/a16ea1be-b4ab-4320-b2a6-f3a11695e6c1" />
 
-```
-+-----------------------------------------------------------------------+
-|  [🛡️ AuthToolkit]  [CyberSec]                Home   Login   [Register]|
-|                                                                       |
-|             🔐 Basic Cybersecurity Educational Prototype              |
-|               Cybersecurity Authentication Toolkit                    |
-|                                                                       |
-|      A hands-on, beginner-friendly implementation of secure           |
-|      authentication principles.                                       |
-|                                                                       |
-|             [Create Secure Account]    [Sign In]                      |
-|                                                                       |
-|  [🛡️ Password Hashing]  [📊 Complexity Policy]  [💉 SQLi Defense]     |
-|  [🕵️ Anti-Enumeration]  [🍪 Secure Sessions]   [🔑 CSRF Defense]     |
-+-----------------------------------------------------------------------+
-```
-*(Placeholder: `screenshots/home_page.png`)*
+
+
 
 ### 2. User Registration & Password Strength Checker
 *Real-time password evaluation showing dynamic strength calculation and requirement checkmarks.*
